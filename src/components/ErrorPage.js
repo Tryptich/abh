@@ -19,8 +19,8 @@ import StyledButton from './StyledButton';
 import Container from './Container';
 import StyledLink from './StyledLink';
 import MessageBox from './MessageBox';
-/* import { withUser } from './UserProvider'; */
-
+/* import { withUser } from './UserProvider';
+ */
 /**
  * A flexible error page
  */

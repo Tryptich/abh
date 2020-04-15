@@ -17,7 +17,7 @@ const StyledTooltipContainer = styled(ReactTooltip)`
 
   &.type-light {
     background: white;
-    color: ${props => props.theme.colors.black[700]};
+    color: black;
     border: 1px solid rgba(20, 20, 20, 0.08);
   }
 `;
