@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { IsMobileProvider } from "./is-mobile";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <IsMobileProvider>
+       <App />
+    </IsMobileProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
